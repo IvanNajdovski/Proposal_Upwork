@@ -240,6 +240,9 @@ html {
     background-color: #1D2E48; }
     .table__head td {
       white-space: nowrap; }
+  .table__body a {
+    text-decoration: none;
+    color: inherit; }
   .table__body td {
     padding: 2rem; }
   .table__body-light {
