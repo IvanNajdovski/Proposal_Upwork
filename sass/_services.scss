@@ -1,0 +1,36 @@
+.services{
+  margin: -24rem auto -10rem auto;
+  &__title{
+    padding: 2rem;
+    color: #fff;
+    font-family: $font-primary;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.2rem;
+    background-color: #1D2E48;
+    & span{
+      padding-left: 4rem;
+    }
+  }
+  &__list{
+    list-style: none;
+    & > *{
+      margin-bottom: 1px;
+    }
+    & li{
+      padding: 2rem 2rem 2rem 4rem;
+      color: #373737;
+
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      font-weight: 600;
+      font-family: $font-primary;
+      display: flex;
+      justify-content: space-between;
+      & span{
+        text-align: right;
+      }
+
+    }
+  }
+}

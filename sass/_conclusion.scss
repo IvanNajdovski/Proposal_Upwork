@@ -1,0 +1,17 @@
+.conclusion{
+  background-image: url("../img/1.jpg");
+  background-size: cover;
+
+  height: 800px;
+  margin: 8rem auto 0 auto;
+  padding: 16rem;
+  &__content{
+    width: 50%;
+    & p{
+      padding: .5rem 0;
+      font-family: $font-primary;
+      font-size: 1.4rem;
+      font-weight: 500;
+    }
+  }
+}
