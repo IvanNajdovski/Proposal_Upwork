@@ -133,7 +133,7 @@ html {
       color: #fff;
       font-family: "Montserrat";
       font-size: 1.4rem; }
-      @media only screen and (max-width: 62.5em) {
+      @media only screen and (max-width: 37.5em) {
         .top__content__date {
           color: #000; } }
     .top__content__header {
@@ -144,14 +144,14 @@ html {
       color: #fff;
       font-weight: 800;
       line-height: 5rem; }
-      @media only screen and (max-width: 62.5em) {
+      @media only screen and (max-width: 37.5em) {
         .top__content__header {
           color: #000; } }
     .top__content__text {
       color: #fff;
       font-size: 1.2rem;
       font-family: "Montserrat"; }
-      @media only screen and (max-width: 62.5em) {
+      @media only screen and (max-width: 37.5em) {
         .top__content__text {
           color: #000;
           font-weight: 600; } }
@@ -182,7 +182,7 @@ html {
           font-family: "Montserrat";
           font-size: 1.2rem;
           padding: .5rem 0; }
-          @media only screen and (max-width: 62.5em) {
+          @media only screen and (max-width: 37.5em) {
             .top__content__client__info h4 {
               color: #000;
               font-weight: 600; } }
@@ -191,7 +191,7 @@ html {
           font-size: 1.4rem;
           color: #bebf3c;
           font-family: "Montserrat"; }
-          @media only screen and (max-width: 62.5em) {
+          @media only screen and (max-width: 37.5em) {
             .top__content__client__info h3 {
               color: #293a98; } }
         .top__content__client__info p {
@@ -199,7 +199,7 @@ html {
           font-family: "Montserrat";
           font-style: italic;
           font-size: 1.2rem; }
-          @media only screen and (max-width: 62.5em) {
+          @media only screen and (max-width: 37.5em) {
             .top__content__client__info p {
               color: #000;
               font-style: italic;
