@@ -110,7 +110,7 @@ html {
   background-image: url("../img/bg-illustration-1.jpg");
   background-size: cover;
   padding: 3rem; }
-  @media only screen and (max-width: 62.5em) {
+  @media only screen and (max-width: 37.5em) {
     .top {
       background-image: url("../img/illustration-1.png"); } }
   .top__content {

@@ -2,7 +2,7 @@
   background-image: url("../img/bg-illustration-1.jpg");
   background-size: cover;
   padding: 3rem;
-  @media only screen and(max-width: $bp-large-medium){
+  @media only screen and(max-width: $bp-medium){
     background-image: url("../img/illustration-1.png");
   }
   &__content{
