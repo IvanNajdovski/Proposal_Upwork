@@ -1,3 +1,13 @@
+//BREAK POINTS
+$bp-large: 75em;                //1200px
+$bp-large-medium: 62.5em;       //1000px
+$bp-large-small: 50em;          //800px
+$bp-medium: 37.5em;             //600px
+$bp-medium-small: 31.25em;      //500px
+$bp-small: 25em;                //400px
+$bp-smallest: 18.75em;          //300px
+
+
 $font-primary: "Montserrat";
 
 
@@ -15,4 +25,14 @@ $color-span: #225a9d;
 html{
   font-size: 62.5%;
   box-sizing: border-box;
+  @media only screen and(max-width: $bp-large-small){
+    font-size: 57.5%;
+  }
+  @media only screen and(max-width: $bp-medium){
+    font-size: 52.5%;
+  }
+  @media only screen and(max-width: $bp-small){
+    font-size: 47.5%;
+  }
+
 }

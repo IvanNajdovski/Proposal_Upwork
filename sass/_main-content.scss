@@ -5,9 +5,17 @@
 .table{
   border-spacing: 0;
   vertical-align: top;
+  & .display__none{
+    @media only screen and(max-width: $bp-medium){
+      display: none;
+    }
+  }
   & td{
 
-    vertical-align:top
+    vertical-align:top;
+    @media only screen and(max-width: $bp-medium){
+      display: block;
+    }
   }
   &__content{
     margin: -10rem auto -10rem auto;
