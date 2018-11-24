@@ -110,9 +110,6 @@ html {
   background-image: url("../img/bg-illustration-1.jpg");
   background-size: cover;
   padding: 3rem; }
-  @media only screen and (max-width: 37.5em) {
-    .top {
-      background-image: url("../img/illustration-1.png"); } }
   .top__content {
     border-top: 1px solid #000;
     padding: .5rem;
@@ -133,9 +130,6 @@ html {
       color: #fff;
       font-family: "Montserrat";
       font-size: 1.4rem; }
-      @media only screen and (max-width: 37.5em) {
-        .top__content__date {
-          color: #000; } }
     .top__content__header {
       padding: 1.5rem 0;
       white-space: nowrap;
@@ -144,17 +138,10 @@ html {
       color: #fff;
       font-weight: 800;
       line-height: 5rem; }
-      @media only screen and (max-width: 37.5em) {
-        .top__content__header {
-          color: #000; } }
     .top__content__text {
       color: #fff;
       font-size: 1.2rem;
       font-family: "Montserrat"; }
-      @media only screen and (max-width: 37.5em) {
-        .top__content__text {
-          color: #000;
-          font-weight: 600; } }
     .top__content__client {
       margin-top: 4rem;
       padding: .5rem 0;
@@ -182,28 +169,16 @@ html {
           font-family: "Montserrat";
           font-size: 1.2rem;
           padding: .5rem 0; }
-          @media only screen and (max-width: 37.5em) {
-            .top__content__client__info h4 {
-              color: #000;
-              font-weight: 600; } }
         .top__content__client__info h3 {
           padding: .5rem 0;
           font-size: 1.4rem;
           color: #bebf3c;
           font-family: "Montserrat"; }
-          @media only screen and (max-width: 37.5em) {
-            .top__content__client__info h3 {
-              color: #293a98; } }
         .top__content__client__info p {
           color: #fff;
           font-family: "Montserrat";
           font-style: italic;
-          font-size: 1.2rem; }
-          @media only screen and (max-width: 37.5em) {
-            .top__content__client__info p {
-              color: #000;
-              font-style: italic;
-              font-weight: 600; } }
+          font-size: 1.3rem; }
       .top__content__client__in {
         display: inline-block; }
 

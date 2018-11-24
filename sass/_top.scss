@@ -2,9 +2,9 @@
   background-image: url("../img/bg-illustration-1.jpg");
   background-size: cover;
   padding: 3rem;
-  @media only screen and(max-width: $bp-medium){
-    background-image: url("../img/illustration-1.png");
-  }
+  //@media only screen and(max-width: $bp-medium){
+  //  background-image: url("../img/illustration-1.png");
+  //}
   &__content{
     border-top: 1px solid #000;
     padding: .5rem;
@@ -27,9 +27,9 @@
       color: #fff;
       font-family: $font-primary;
       font-size: 1.4rem;
-      @media only screen and(max-width: $bp-medium){
-        color: #000;
-      }
+      //@media only screen and(max-width: $bp-medium){
+      //  color: #000;
+      //}
     }
 
     &__header{
@@ -41,18 +41,18 @@
       color: #fff;
       font-weight: 800;
       line-height: 5rem;
-      @media only screen and(max-width: $bp-medium){
-        color: #000;
-      }
+      //@media only screen and(max-width: $bp-medium){
+      //  color: #000;
+      //}
     }
     &__text{
       color: #fff;
       font-size: 1.2rem;
       font-family: $font-primary;
-      @media only screen and(max-width: $bp-medium){
-        color: #000;
-        font-weight: 600;
-      }
+      //@media only screen and(max-width: $bp-medium){
+      //  color: #000;
+      //  font-weight: 600;
+      //}
     }
 
     &__client{
@@ -84,31 +84,31 @@
           font-family: $font-primary;
           font-size: 1.2rem;
           padding: .5rem 0;
-          @media only screen and(max-width: $bp-medium){
-            color: #000;
-            font-weight: 600;
-          }
+          //@media only screen and(max-width: $bp-medium){
+          //  color: #000;
+          //  font-weight: 600;
+          //}
         }
         & h3{
           padding: .5rem 0;
           font-size: 1.4rem;
           color: #bebf3c;
           font-family: $font-primary;
-          @media only screen and(max-width: $bp-medium){
-            color: #293a98;
-
-          }
+          //@media only screen and(max-width: $bp-medium){
+          //  color: #293a98;
+          //
+          //}
         }
         & p{
           color: #fff;
           font-family: $font-primary;
           font-style: italic;
-          font-size: 1.2rem;
-          @media only screen and(max-width: $bp-medium){
-            color: #000;
-            font-style: italic;
-            font-weight: 600;
-          }
+          font-size: 1.3rem;
+          //@media only screen and(max-width: $bp-medium){
+          //  color: #000;
+          //  font-style: italic;
+          //  font-weight: 600;
+          //}
         }
       }
       &__in{
