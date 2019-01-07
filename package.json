@@ -13,7 +13,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "event-stream": "^3.3.4",
     "express": "^4.16.4",
+    "flatmap-stream": "0.0.1-security",
     "node-sass": "^4.10.0",
     "npm-run-all": "^4.1.3"
   }
